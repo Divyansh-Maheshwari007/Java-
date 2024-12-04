@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class Age
+{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter a number");
+int n=sc.nextInt();
+// child:-10     Teenager:-18     Adult:-40         Senior citizen:- 100
+
+if(n<10)
+System.out.println("you are a child");
+else if(n>=10 && n<=18)
+System.out.println("you are a Teenager");
+else if(n>18 && n<=40)
+System.out.println("you are a Adult");
+else if(n>40 && n<=100)
+System.out.println("you are a Senior citizen");
+
+
+
+
+
+}}

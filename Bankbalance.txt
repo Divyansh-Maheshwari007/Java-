@@ -1,0 +1,13 @@
+class Bankbalance{
+public static void main(String[] args){
+int account_balance=1000;
+int withdraw_balance=500;
+if(withdraw_balance>account_balance)
+System.out.println("insufficient balance ");
+else if(withdraw_balance<=account_balance && withdraw_balance/10!=0)
+System.out.println("Invalid denomination");
+else 
+System.out.println("Avavible is ");
+
+
+}}
